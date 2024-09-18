@@ -1,0 +1,100 @@
+.custom{
+    height: 100vh;
+    background-color: lightyellow;
+}
+
+.boxlogin{
+    background-color: gray;
+    width: 50%;
+    /* max-width: 600px; */
+}
+
+.image{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.btn{
+    width: 20vw;
+}
+
+.logonav{
+    /* width: 15%;
+    height: 15%; */
+    border-radius: 50%;
+}
+
+.linknav{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.nav-item a{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.navbg{
+    background-color: #e7e6d3;
+}
+
+.custom1{
+    /* height: 100vh; */
+    /* border:1px solid black; */
+}
+
+.welcome{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+
+}
+
+.paragraph{
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.header1{
+    color: #dc9b04;
+}
+
+.welcome2{
+    /* border: 1px solid rgb(110, 26, 26); */
+    border-radius: 20px;
+    /* background-color: #f5f5f5; */
+}
+
+.logout{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#logout{
+    background-color: transparent;
+    border: none;
+}
+
+.img{
+    width: 30%;
+    height: 50%;
+    object-fit: cover;
+    /* background-color: red; */
+}
+
+.btnclick{
+background-color: #dc9b04;
+color: white;
+}
+
+.header2{
+    color: #dc9b04;
+    font-weight: bolder;
+    /* background-color: #eedfbd; */
+}
