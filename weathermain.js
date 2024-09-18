@@ -1,3 +1,8 @@
+
+function logout(){
+    localStorage.removeItem('user');
+    window.location.href='login.html';
+}
 let url="https://api.openweathermap.org/data/2.5/weather?q=Riyadh&appid=9a8942914dde63c45fefc03c8558f8b6";
 let city =document.getElementById('city');
 let temp=document.getElementById('temp');
