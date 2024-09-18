@@ -3,6 +3,7 @@ let city =document.getElementById('city');
 let temp=document.getElementById('temp');
 let humidity=document.getElementById('humidity')
 let long=document.getElementById('long');
+let width=document.getElementById('width');
 fetch(url)
   .then((response) => response.json())
   .then((data) =>{
@@ -10,4 +11,6 @@ fetch(url)
 city.textContent=data.name;
 temp.textContent=data.main.temp;
 humidity.textContent=data.main.humidity;
+long.textContent=data.coord.lon;
+width.textContent=data.coord.lat;
   });
